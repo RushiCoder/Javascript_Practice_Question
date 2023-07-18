@@ -14,3 +14,18 @@ sayHi();
 <b>Answer :- </b>
 
 `undefined` and `ReferenceError`
+
+### 2. What's the output?
+
+```javascript
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+
+for (let i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+```
+<b>Answer :- </b>
+
+`3 3 3` and `0 1 2` 
