@@ -47,3 +47,11 @@ console.log(shape.perimeter());
 
 `20` and `NaN`
 
+### 4. What's the output?
+
+```javascript
++true;
+!'Lydia';
+```
+<b>Answer :- </b>
+`1` and `false`
