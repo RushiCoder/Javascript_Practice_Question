@@ -55,3 +55,20 @@ console.log(shape.perimeter());
 ```
 <b>Answer :- </b>
 `1` and `false`
+
+
+### 5. Which one is true?
+
+```javascript
+const bird = {
+  size: 'small',
+};
+
+const mouse = {
+  name: 'Mickey',
+  small: true,
+};
+```
+<b>Answer :- </b>
+
+ `mouse.bird.size` is not valid
