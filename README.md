@@ -72,3 +72,17 @@ const mouse = {
 <b>Answer :- </b>
 
  `mouse.bird.size` is not valid
+
+### 6. What's the output?
+
+```javascript
+let c = { greeting: 'Hey!' };
+let d;
+
+d = c;
+c.greeting = 'Hello';
+console.log(d.greeting);
+```
+<b>Answer :- </b>
+
+`Hello`
