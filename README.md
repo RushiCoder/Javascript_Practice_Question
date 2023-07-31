@@ -86,3 +86,18 @@ console.log(d.greeting);
 <b>Answer :- </b>
 
 `Hello`
+
+### 7. What's the output?
+
+```javascript
+let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+```
+<b>Answer :- </b>
+
+`true` `false` `false`
