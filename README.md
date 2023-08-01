@@ -101,3 +101,24 @@ console.log(b === c);
 <b>Answer :- </b>
 
 `true` `false` `false`
+
+### 8. What's the output?
+
+```javascript
+class Chameleon {
+  static colorChange(newColor) {
+    this.newColor = newColor;
+    return this.newColor;
+  }
+
+  constructor({ newColor = 'green' } = {}) {
+    this.newColor = newColor;
+  }
+}
+
+const freddie = new Chameleon({ newColor: 'purple' });
+console.log(freddie.colorChange('orange'));
+```
+<b>Answer :- </b>
+
+`TypeError`
