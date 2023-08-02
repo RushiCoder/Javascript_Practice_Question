@@ -116,9 +116,14 @@ class Chameleon {
   }
 }
 
-const freddie = new Chameleon({ newColor: 'purple' });
-console.log(freddie.colorChange('orange'));
-```
-<b>Answer :- </b>
+### 9. What's the output?
 
-`TypeError`
+```javascript
+let greeting;
+greetign = {}; // Typo!
+console.log(greetign);
+```
+
+<b>Answer :- <b/>
+
+ `{}`
