@@ -115,6 +115,7 @@ class Chameleon {
     this.newColor = newColor;
   }
 }
+```
 
 ### 9. What's the output?
 
@@ -127,3 +128,16 @@ console.log(greetign);
 <b>Answer :- <b/>
 
  `{}`
+
+### 10. What happens when we do this?
+
+```javascript
+function bark() {
+  console.log('Woof!');
+}
+
+bark.animal = 'dog';
+```
+<b>Anwser :- </b>
+
+Nothing, this is totally fine!
