@@ -116,6 +116,9 @@ class Chameleon {
   }
 }
 ```
+<b>Answer :- </b>
+
+`TypeError`
 
 ### 9. What's the output?
 
