@@ -28,7 +28,7 @@ for (let i = 0; i < 3; i++) {
 ```
 <b>Answer :- </b>
 
-`3 3 3` and `0 1 2` 
+`3 3 3`  and  `0 1 2` 
 
 ### 3. What's the output?
 
@@ -54,6 +54,7 @@ console.log(shape.perimeter());
 !'Lydia';
 ```
 <b>Answer :- </b>
+
 `1` and `false`
 
 
@@ -144,3 +145,4 @@ bark.animal = 'dog';
 <b>Anwser :- </b>
 
 Nothing, this is totally fine!
+
