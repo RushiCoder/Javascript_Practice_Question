@@ -146,3 +146,21 @@ bark.animal = 'dog';
 
 Nothing, this is totally fine!
 
+### 11. What's the output?
+
+```javascript
+function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+
+const member = new Person('Lydia', 'Hallie');
+Person.getFullName = function() {
+  return `${this.firstName} ${this.lastName}`;
+};
+
+console.log(member.getFullName());
+```
+<b>Answer:- </b>
+
+`TypeError`
