@@ -165,3 +165,22 @@ console.log(member.getFullName());
 <b>Answer:- </b>
 
 `TypeError`
+
+### 12. What's the output?
+
+```javascript
+function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+
+const lydia = new Person('Lydia', 'Hallie');
+const sarah = Person('Sarah', 'Smith');
+
+console.log(lydia);
+console.log(sarah);
+```
+<b>Answer :- </b>
+
+`Person {firstName: "Lydia", lastName: "Hallie"}` and `undefined`
+  
