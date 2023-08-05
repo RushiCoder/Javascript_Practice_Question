@@ -53,6 +53,7 @@ console.log(shape.perimeter());
 +true;
 !'Lydia';
 ```
+
 <b>Answer :- </b>
 
 `1` and `false`
