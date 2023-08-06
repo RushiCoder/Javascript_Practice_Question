@@ -184,3 +184,15 @@ console.log(sarah);
 
 `Person {firstName: "Lydia", lastName: "Hallie"}` and `undefined`
   
+### 13. What are the three phases of event propagation?
+
+- A: Target > Capturing > Bubbling
+- B: Bubbling > Target > Capturing
+- C: Target > Bubbling > Capturing
+- D: Capturing > Target > Bubbling
+
+<b>Answer: D</b>
+
+During the **capturing** phase, the event goes through the ancestor elements down to the target element. It then reaches the **target** element, and **bubbling** begins.
+
+<img src="https://i.imgur.com/N18oRgd.png" width="200">
