@@ -220,3 +220,18 @@ sum(1, '2');
 <b>Answer :- </b>
 
 `"12"`
+
+### 16. What's the output?
+
+```javascript
+let number = 0;
+console.log(number++);
+console.log(++number);
+console.log(number);
+```
+<b>Answer :- <b>
+
+`0` `2` `2`
+
+
+
