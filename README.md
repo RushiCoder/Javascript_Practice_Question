@@ -233,5 +233,22 @@ console.log(number);
 
 `0` `2` `2`
 
+### 17. What's the output?
 
+```javascript
+function getPersonInfo(one, two, three) {
+  console.log(one);
+  console.log(two);
+  console.log(three);
+}
+
+const person = 'Lydia';
+const age = 21;
+
+getPersonInfo`${person} is ${age} years old`;
+```
+
+<b>Answer :-</b>
+
+`["", " is ", " years old"]` `"Lydia"` `21`
 
