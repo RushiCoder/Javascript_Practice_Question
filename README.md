@@ -252,3 +252,22 @@ getPersonInfo`${person} is ${age} years old`;
 
 `["", " is ", " years old"]` `"Lydia"` `21`
 
+
+### 18. What's the output?
+
+```javascript
+function checkAge(data) {
+  if (data === { age: 18 }) {
+    console.log('You are an adult!');
+  } else if (data == { age: 18 }) {
+    console.log('You are still an adult.');
+  } else {
+    console.log(`Hmm.. You don't have an age I guess`);
+  }
+}
+
+checkAge({ age: 18 });
+```
+<b>Answer :- </b>
+
+`Hmm.. You don't have an age I guess`
