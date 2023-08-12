@@ -272,4 +272,16 @@ checkAge({ age: 18 });
 
 `Hmm.. You don't have an age I guess`
 
+### 19. What's the output?
+
+```javascript
+function getAge(...args) {
+  console.log(typeof args);
+}
+
+getAge(21);
+```
+<b>Answer :- </b>
+
+`"object"`
 
