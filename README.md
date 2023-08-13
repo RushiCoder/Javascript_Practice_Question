@@ -285,3 +285,17 @@ getAge(21);
 
 `"object"`
 
+### 20. What's the output?
+
+```javascript
+function getAge() {
+  'use strict';
+  age = 21;
+  console.log(age);
+}
+
+getAge();
+```
+<b>Answer :- </b>
+
+`ReferenceError`
