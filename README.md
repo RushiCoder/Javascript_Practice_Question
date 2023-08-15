@@ -299,3 +299,11 @@ getAge();
 <b>Answer :- </b>
 
 `ReferenceError`
+
+### 21. What's the value of `sum`?
+
+```javascript
+const sum = eval('10*10+5');
+```
+<b>Answer :-</b>
+`105`
