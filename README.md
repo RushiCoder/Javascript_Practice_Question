@@ -307,3 +307,12 @@ const sum = eval('10*10+5');
 ```
 <b>Answer :-</b>
 `105`
+
+### 22. How long is cool_secret accessible?
+
+```javascript
+sessionStorage.setItem('cool_secret', 123);
+```
+<b>Answer :-</b>
+
+ When the user closes the tab.
