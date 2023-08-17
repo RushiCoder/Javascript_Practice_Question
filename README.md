@@ -316,3 +316,15 @@ sessionStorage.setItem('cool_secret', 123);
 <b>Answer :-</b>
 
  When the user closes the tab.
+
+ ### 23. What's the output?
+
+```javascript
+var num = 8;
+var num = 10;
+
+console.log(num);
+```
+<b>Anwer :- </b>
+
+`10`
