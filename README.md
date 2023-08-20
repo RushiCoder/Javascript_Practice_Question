@@ -343,3 +343,13 @@ set.has(1);
 
 <b>Answer :-</b>
 `true` `true` `false` `true`
+
+### 25. What's the output?
+
+```javascript
+const obj = { a: 'one', b: 'two', a: 'three' };
+console.log(obj);
+```
+<b>Answer :-</b>
+
+`{ a: "three", b: "two" }`
