@@ -353,3 +353,9 @@ console.log(obj);
 <b>Answer :-</b>
 
 `{ a: "three", b: "two" }`
+
+### 26. The JavaScript global execution context creates two things for you: the global object, and the "this" keyword.
+
+<b>Answer :- <b/>
+
+true
