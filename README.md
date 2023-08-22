@@ -359,3 +359,15 @@ console.log(obj);
 <b>Answer :- <b/>
 
 true
+
+### 27. What's the output?
+
+```javascript
+for (let i = 1; i < 5; i++) {
+  if (i === 3) continue;
+  console.log(i);
+}
+```
+<b>Answer:-</b>
+
+`1` `2` `4`
