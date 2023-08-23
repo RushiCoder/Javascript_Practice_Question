@@ -371,3 +371,19 @@ for (let i = 1; i < 5; i++) {
 <b>Answer:-</b>
 
 `1` `2` `4`
+
+### 28. What's the output?
+
+```javascript
+String.prototype.giveLydiaPizza = () => {
+  return 'Just give Lydia pizza already!';
+};
+
+const name = 'Lydia';
+
+console.log(name.giveLydiaPizza())
+```
+
+<b>Answer :-</b>
+
+`"Just give Lydia pizza already!"`
