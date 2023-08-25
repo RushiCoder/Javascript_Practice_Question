@@ -387,3 +387,19 @@ console.log(name.giveLydiaPizza())
 <b>Answer :-</b>
 
 `"Just give Lydia pizza already!"`
+
+### 29. What's the output?
+
+```javascript
+const a = {};
+const b = { key: 'b' };
+const c = { key: 'c' };
+
+a[b] = 123;
+a[c] = 456;
+
+console.log(a[b]);
+```
+<b>Answer:-</b>
+
+`456`
