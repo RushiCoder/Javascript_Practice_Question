@@ -403,3 +403,18 @@ console.log(a[b]);
 <b>Answer:-</b>
 
 `456`
+
+### 30. What's the output?
+
+```javascript
+const foo = () => console.log('First');
+const bar = () => setTimeout(() => console.log('Second'));
+const baz = () => console.log('Third');
+
+bar();
+foo();
+baz();
+```
+<b>Answer :- </b>
+
+`First` `Third` `Second`
