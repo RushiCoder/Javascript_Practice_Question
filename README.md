@@ -418,3 +418,19 @@ baz();
 <b>Answer :- </b>
 
 `First` `Third` `Second`
+
+### 31. What is the event.target when clicking the button?
+
+```html
+<div onclick="console.log('first div')">
+  <div onclick="console.log('second div')">
+    <button onclick="console.log('button')">
+      Click!
+    </button>
+  </div>
+</div>
+```
+
+- A: Outer `div`
+- B: Inner `div`
+- C: `button`
