@@ -430,7 +430,6 @@ baz();
   </div>
 </div>
 ```
+<b>Answer:-</b>
 
-- A: Outer `div`
-- B: Inner `div`
-- C: `button`
+`button`
