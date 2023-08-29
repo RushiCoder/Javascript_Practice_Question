@@ -433,3 +433,16 @@ baz();
 <b>Answer:-</b>
 
 `button`
+
+### 32. When you click the paragraph, what's the logged output?
+
+```html
+<div onclick="console.log('div')">
+  <p onclick="console.log('p')">
+    Click here!
+  </p>
+</div>
+```
+<b>Answer:- </b>
+
+`p` `div`
