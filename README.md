@@ -446,3 +446,19 @@ baz();
 <b>Answer:- </b>
 
 `p` `div`
+
+### 33. What's the output?
+
+```javascript
+const person = { name: 'Lydia' };
+
+function sayHi(age) {
+  return `${this.name} is ${age}`;
+}
+
+console.log(sayHi.call(person, 21));
+console.log(sayHi.bind(person, 21));
+```
+<b>Answer:-</b>
+
+`function` `function`
