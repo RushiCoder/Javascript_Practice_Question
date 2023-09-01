@@ -462,3 +462,16 @@ console.log(sayHi.bind(person, 21));
 <b>Answer:-</b>
 
 `function` `function`
+
+### 34. What's the output?
+
+```javascript
+function sayHi() {
+  return (() => 0)();
+}
+
+console.log(typeof sayHi());
+```
+<b>Answer:-</b>
+
+`"number"`
