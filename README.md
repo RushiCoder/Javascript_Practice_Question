@@ -475,3 +475,16 @@ console.log(typeof sayHi());
 <b>Answer:-</b>
 
 `"number"`
+### 35. Which of these values are falsy?
+
+```javascript
+0;
+new Number(0);
+('');
+(' ');
+new Boolean(false);
+undefined;
+```
+<b>Answer:-</b>
+
+`0`, `''`, `undefined`
