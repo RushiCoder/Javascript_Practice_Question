@@ -488,3 +488,12 @@ undefined;
 <b>Answer:-</b>
 
 `0`, `''`, `undefined`
+
+### 36. What's the output?
+
+```javascript
+console.log(typeof typeof 1);
+```
+<b>Answer :-</b>
+
+`"string"`
