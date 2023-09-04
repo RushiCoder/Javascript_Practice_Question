@@ -497,3 +497,14 @@ console.log(typeof typeof 1);
 <b>Answer :-</b>
 
 `"string"`
+
+### 37. What's the output?
+
+```javascript
+const numbers = [1, 2, 3];
+numbers[10] = 11;
+console.log(numbers);
+```
+<b>Answer :-</b>
+
+`[1, 2, 3, empty x 7, 11]`
