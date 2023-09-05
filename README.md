@@ -508,3 +508,22 @@ console.log(numbers);
 <b>Answer :-</b>
 
 `[1, 2, 3, empty x 7, 11]`
+
+### 38. What's the output?
+
+```javascript
+(() => {
+  let x, y;
+  try {
+    throw new Error();
+  } catch (x) {
+    (x = 1), (y = 2);
+    console.log(x);
+  }
+  console.log(x);
+  console.log(y);
+})();
+```
+<b>Answer :-</b>
+
+`undefined` `undefined` `undefined`
