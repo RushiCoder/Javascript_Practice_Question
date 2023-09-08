@@ -540,4 +540,16 @@ Primitive types are `boolean`, `null`, `undefined`, `bigint`, `number`, `string`
 
 What differentiates a primitive from an object is that primitives do not have any properties or methods; however, you'll note that `'foo'.toUpperCase()` evaluates to `'FOO'` and does not result in a `TypeError`. This is because when you try to access a property or method on a primitive like a string, JavaScript will implicitly wrap the primitive type using one of the wrapper classes, i.e. `String`, and then immediately discard the wrapper after the expression evaluates. All primitives except for `null` and `undefined` exhibit this behaviour.
 
+### 40. What's the output?
 
+```javascript
+[[0, 1], [2, 3]].reduce(
+  (acc, cur) => {
+    return acc.concat(cur);
+  },
+  [1, 2],
+);
+```
+<b>Answer :-</b>
+
+`[1, 2, 0, 1, 2, 3]`
