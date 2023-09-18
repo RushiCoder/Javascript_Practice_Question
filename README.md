@@ -550,6 +550,6 @@ What differentiates a primitive from an object is that primitives do not have an
   [1, 2],
 );
 ```
-<b>Answer :-</b>
+<b>Answer :- </b>
 
 `[1, 2, 0, 1, 2, 3]`
