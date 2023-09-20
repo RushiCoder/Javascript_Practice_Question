@@ -553,3 +553,14 @@ What differentiates a primitive from an object is that primitives do not have an
 <b>Answer :-</b>
 
 `[1, 2, 0, 1, 2, 3]`
+
+### 41. What's the output?
+
+```javascript
+!!null;
+!!'';
+!!1;
+```
+<b>Answer :-</b>
+
+`false` `false` `true`
