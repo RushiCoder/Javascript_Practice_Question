@@ -561,6 +561,6 @@ What differentiates a primitive from an object is that primitives do not have an
 !!'';
 !!1;
 ```
-<b>Answer :- </b>
+<b>Answer :-</b>
 
 `false` `false` `true`
