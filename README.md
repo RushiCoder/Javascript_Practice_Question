@@ -564,3 +564,13 @@ What differentiates a primitive from an object is that primitives do not have an
 <b>Answer :- </b>
 
 `false` `false` `true`
+
+###### 42. What does the `setInterval` method return in the browser?
+
+```javascript
+setInterval(() => console.log('Hi'), 1000);
+```
+
+<b>Answer :-</b>
+
+a unique id
