@@ -574,3 +574,14 @@ setInterval(() => console.log('Hi'), 1000);
 <b>Answer :-</b>
 
 a unique id
+
+
+### 43. What does this return?
+
+```javascript
+[...'India'];
+```
+
+<b>Answer :-</b>
+
+ `["I", "n", "d", "i", "a"]`
