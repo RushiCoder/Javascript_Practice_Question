@@ -603,3 +603,20 @@ console.log(gen.next().value);
 <b>Answer :-</b>
 
 `10, 20`
+
+### 45. What does this return?
+
+```javascript
+const firstPromise = new Promise((res, rej) => {
+  setTimeout(res, 500, 'one');
+});
+
+const secondPromise = new Promise((res, rej) => {
+  setTimeout(res, 100, 'two');
+});
+
+Promise.race([firstPromise, secondPromise]).then(res => console.log(res));
+```
+<b>Answer :-</b>
+
+`"two"`
