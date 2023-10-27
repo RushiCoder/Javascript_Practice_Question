@@ -620,3 +620,16 @@ Promise.race([firstPromise, secondPromise]).then(res => console.log(res));
 <b>Answer :-</b>
 
 `"two"`
+
+### 46. What's the output?
+
+```javascript
+let person = { name: 'Lydia' };
+const members = [person];
+person = null;
+
+console.log(members);
+```
+<b>Answer :-</b>
+
+`[{ name: "Lydia" }]`
