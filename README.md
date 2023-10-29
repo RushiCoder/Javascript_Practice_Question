@@ -649,3 +649,12 @@ for (const item in person) {
 <b>Answer :-</b>
 
 `"name", "age"`
+
+### 48. What's the output?
+
+```javascript
+console.log(3 + 4 + '5');
+```
+<b>Answer :-</b>
+
+`"75"`
