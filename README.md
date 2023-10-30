@@ -658,3 +658,12 @@ console.log(3 + 4 + '5');
 <b>Answer :-</b>
 
 `"75"`
+
+### 49. What's the value of `num`?
+
+```javascript
+const num = parseInt('7*6', 10);
+```
+<b>Answer :-</b>
+
+`7`
