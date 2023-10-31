@@ -667,3 +667,15 @@ const num = parseInt('7*6', 10);
 <b>Answer :-</b>
 
 `7`
+
+### 50. What's the output?
+
+```javascript
+[1, 2, 3].map(num => {
+  if (typeof num === 'number') return;
+  return num * 2;
+});
+```
+<b>Answer :-</b>
+
+`[undefined, undefined, undefined]`
