@@ -679,3 +679,22 @@ const num = parseInt('7*6', 10);
 <b>Answer :-</b>
 
 `[undefined, undefined, undefined]`
+
+### 51. What's the output?
+
+```javascript
+function getInfo(member, year) {
+  member.name = 'Lydia';
+  year = '1998';
+}
+
+const person = { name: 'Sarah' };
+const birthYear = '1997';
+
+getInfo(person, birthYear);
+
+console.log(person, birthYear);
+```
+<b>Answer :-</b>
+
+`{ name: "Lydia" }, "1997"`
