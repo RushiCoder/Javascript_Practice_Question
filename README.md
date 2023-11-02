@@ -698,3 +698,25 @@ console.log(person, birthYear);
 <b>Answer :-</b>
 
 `{ name: "Lydia" }, "1997"`
+
+### 52. What's the output?
+
+```javascript
+function greeting() {
+  throw 'Hello world!';
+}
+
+function sayHi() {
+  try {
+    const data = greeting();
+    console.log('It worked!', data);
+  } catch (e) {
+    console.log('Oh no an error:', e);
+  }
+}
+
+sayHi();
+```
+<b>Answer :-</b>
+
+`Oh no an error: Hello world!`
