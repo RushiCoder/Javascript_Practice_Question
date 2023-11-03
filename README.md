@@ -720,3 +720,18 @@ sayHi();
 <b>Answer :-</b>
 
 `Oh no an error: Hello world!`
+
+### 53. What's the output?
+
+```javascript
+function Car() {
+  this.make = 'Lamborghini';
+  return { make: 'Maserati' };
+}
+
+const myCar = new Car();
+console.log(myCar.make);
+```
+<b>Answer :-</b>
+
+`"Maserati"`
