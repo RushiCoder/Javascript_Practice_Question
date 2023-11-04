@@ -735,3 +735,17 @@ console.log(myCar.make);
 <b>Answer :-</b>
 
 `"Maserati"`
+
+### 54. What's the output?
+
+```javascript
+(() => {
+  let x = (y = 10);
+})();
+
+console.log(typeof x);
+console.log(typeof y);
+```
+<b>Answer :-</b>
+
+`"undefined", "number"`
