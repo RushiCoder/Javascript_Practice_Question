@@ -749,3 +749,28 @@ console.log(typeof y);
 <b>Answer :-</b>
 
 `"undefined", "number"`
+
+### 55. What's the output?
+
+```javascript
+class Dog {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+Dog.prototype.bark = function() {
+  console.log(`Woof I am ${this.name}`);
+};
+
+const pet = new Dog('Mara');
+
+pet.bark();
+
+delete Dog.prototype.bark;
+
+pet.bark();
+```
+<b>Answer :-</b>
+
+`"Woof I am Mara"`, `TypeError`
