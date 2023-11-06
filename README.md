@@ -774,3 +774,14 @@ pet.bark();
 <b>Answer :-</b>
 
 `"Woof I am Mara"`, `TypeError`
+
+### 56. What's the output?
+
+```javascript
+const set = new Set([1, 1, 2, 3, 4]);
+
+console.log(set);
+```
+<b>Answer :-</b>
+
+`{1, 2, 3, 4}`
