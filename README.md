@@ -785,3 +785,23 @@ console.log(set);
 <b>Answer :-</b>
 
 `{1, 2, 3, 4}`
+
+### 57. What's the output?
+
+```javascript
+// counter.js
+let counter = 10;
+export default counter;
+```
+
+```javascript
+// index.js
+import myCounter from './counter';
+
+myCounter += 1;
+
+console.log(myCounter);
+```
+<b>Answer :-</b>
+
+`Error`
