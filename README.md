@@ -805,3 +805,16 @@ console.log(myCounter);
 <b>Answer :-</b>
 
 `Error`
+
+### 58. What's the output?
+
+```javascript
+const name = 'Lydia';
+age = 21;
+
+console.log(delete name);
+console.log(delete age);
+```
+<b>Answer :-</b>
+
+`false`, `true`
