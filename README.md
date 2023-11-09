@@ -830,3 +830,15 @@ console.log(y);
 <b>Answer :-</b>
 
 `1`
+
+### 60. What's the output?
+
+```javascript
+const user = { name: 'Lydia', age: 21 };
+const admin = { admin: true, ...user };
+
+console.log(admin);
+```
+<b>Answer :-</b>
+
+`{ admin: true, name: "Lydia", age: 21 }`
