@@ -842,3 +842,19 @@ console.log(admin);
 <b>Answer :-</b>
 
 `{ admin: true, name: "Lydia", age: 21 }`
+
+### 62. What's the output?
+
+```javascript
+const settings = {
+  username: 'lydiahallie',
+  level: 19,
+  health: 90,
+};
+
+const data = JSON.stringify(settings, ['level', 'health']);
+console.log(data);
+```
+<b>Answer :-</b>
+
+`"{"level":19, "health":90}"`
