@@ -843,7 +843,7 @@ console.log(admin);
 
 `{ admin: true, name: "Lydia", age: 21 }`
 
-### 62. What's the output?
+### 61. What's the output?
 
 ```javascript
 const settings = {
@@ -858,3 +858,17 @@ console.log(data);
 <b>Answer :-</b>
 
 `"{"level":19, "health":90}"`
+
+### 62. What's the output?
+
+```javascript
+const person = { name: 'Lydia' };
+
+Object.defineProperty(person, 'age', { value: 21 });
+
+console.log(person);
+console.log(Object.keys(person));
+```
+<b>Answer :-</b>
+
+`{ name: "Lydia", age: 21 }`, `["name"]`
