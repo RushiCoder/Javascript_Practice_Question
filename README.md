@@ -872,3 +872,21 @@ console.log(Object.keys(person));
 <b>Answer :-</b>
 
 `{ name: "Lydia", age: 21 }`, `["name"]`
+
+### 63. What's the output?
+
+```javascript
+let num = 10;
+
+const increaseNumber = () => num++;
+const increasePassedNumber = number => number++;
+
+const num1 = increaseNumber();
+const num2 = increasePassedNumber(num1);
+
+console.log(num1);
+console.log(num2);
+```
+<b>Answer :-</b>
+
+`10`, `10`
