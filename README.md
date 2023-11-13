@@ -890,3 +890,21 @@ console.log(num2);
 <b>Answer :-</b>
 
 `10`, `10`
+
+### 64. What's the output?
+
+```javascript
+const value = { number: 10 };
+
+const multiply = (x = { ...value }) => {
+  console.log((x.number *= 2));
+};
+
+multiply();
+multiply();
+multiply(value);
+multiply(value);
+```
+<b>Answer :-</b>
+
+`20`, `20`, `20`, `40`
