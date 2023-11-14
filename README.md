@@ -908,3 +908,12 @@ multiply(value);
 <b>Answer :-</b>
 
 `20`, `20`, `20`, `40`
+
+### 65. What's the output?
+
+```javascript
+[1, 2, 3, 4].reduce((x, y) => console.log(x, y));
+```
+<b>Answer :-</b>
+
+`1` `2` and `undefined` `3` and `undefined` `4`
