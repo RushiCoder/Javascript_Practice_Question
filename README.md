@@ -953,3 +953,19 @@ class Labrador extends Dog {
 <b>Answer :-</b>
 
 2
+
+### 67. What's the output?
+
+```javascript
+// index.js
+console.log('running index.js');
+import { sum } from './sum.js';
+console.log(sum(1, 2));
+
+// sum.js
+console.log('running sum.js');
+export const sum = (a, b) => a + b;
+```
+<b>Answer :-</b>
+
+`running sum.js`, `running index.js`, `3`
