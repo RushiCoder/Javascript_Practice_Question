@@ -980,3 +980,14 @@ console.log(Symbol('foo') === Symbol('foo'));
 <b>Answer :-</b>
 
 `true`, `true`, `false`
+
+### 69. What's the output?
+
+```javascript
+const name = 'Lydia Hallie';
+console.log(name.padStart(13));
+console.log(name.padStart(2));
+```
+<b>Answer :-</b>
+
+`" Lydia Hallie"`, `"Lydia Hallie"` (`"[1x whitespace]Lydia Hallie"`, `"Lydia Hallie"`)
