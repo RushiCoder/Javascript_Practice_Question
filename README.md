@@ -991,3 +991,12 @@ console.log(name.padStart(2));
 <b>Answer :-</b>
 
 `" Lydia Hallie"`, `"Lydia Hallie"` (`"[1x whitespace]Lydia Hallie"`, `"Lydia Hallie"`)
+
+### 70. What's the output?
+
+```javascript
+console.log('🥑' + '💻');
+```
+<b>Answer :-</b>
+
+`"🥑💻"`
