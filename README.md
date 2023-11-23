@@ -1019,3 +1019,17 @@ console.log(/* 2 */); // JavaScript loves you back ❤️
 <b>Answer :-</b>
 
 `game.next().value` and `game.next("Yes").value`
+
+### 73. What's the output?
+
+```javascript
+async function getData() {
+  return await Promise.resolve('I made it!');
+}
+
+const data = getData();
+console.log(data);
+```
+<b>Answer :-</b>
+
+`Promise {<pending>}`
