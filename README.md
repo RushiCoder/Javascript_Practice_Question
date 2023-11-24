@@ -1020,7 +1020,7 @@ console.log(/* 2 */); // JavaScript loves you back ❤️
 
 `game.next().value` and `game.next("Yes").value`
 
-### 73. What's the output?
+### 72. What's the output?
 
 ```javascript
 async function getData() {
