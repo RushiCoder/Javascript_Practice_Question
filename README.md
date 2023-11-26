@@ -1033,3 +1033,17 @@ console.log(data);
 <b>Answer :-</b>
 
 `Promise {<pending>}`
+
+### 74. What's the output?
+
+```javascript
+function addToList(item, list) {
+  return list.push(item);
+}
+
+const result = addToList('apple', ['banana']);
+console.log(result);
+```
+<b>Answer :-</b>
+
+`2`
