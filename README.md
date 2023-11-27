@@ -1034,7 +1034,7 @@ console.log(data);
 
 `Promise {<pending>}`
 
-### 74. What's the output?
+### 73. What's the output?
 
 ```javascript
 function addToList(item, list) {
@@ -1047,3 +1047,19 @@ console.log(result);
 <b>Answer :-</b>
 
 `2`
+
+### 74. What's the output?
+
+```javascript
+const box = { x: 10, y: 20 };
+
+Object.freeze(box);
+
+const shape = box;
+shape.x = 100;
+
+console.log(shape);
+```
+<b>Answer :-</b>
+
+`{ x: 10, y: 20 }`
