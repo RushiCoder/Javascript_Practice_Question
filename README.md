@@ -1063,3 +1063,14 @@ console.log(shape);
 <b>Answer :-</b>
 
 `{ x: 10, y: 20 }`
+
+### 75. What's the output?
+
+```javascript
+const { firstName: myName } = { firstName: 'Lydia' };
+
+console.log(firstName);
+```
+<b>Answer :-</b>
+
+`ReferenceError`
