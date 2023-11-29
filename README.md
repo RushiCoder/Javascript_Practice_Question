@@ -1074,3 +1074,13 @@ console.log(firstName);
 <b>Answer :-</b>
 
 `ReferenceError`
+
+### 77. Is this a pure function?
+
+```javascript
+function sum(a, b) {
+  return a + b;
+}
+```
+<b>Answer :-</b>
+Yes
