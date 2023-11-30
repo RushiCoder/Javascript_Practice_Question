@@ -1075,7 +1075,7 @@ console.log(firstName);
 
 `ReferenceError`
 
-### 77. Is this a pure function?
+### 76. Is this a pure function?
 
 ```javascript
 function sum(a, b) {
