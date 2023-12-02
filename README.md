@@ -1109,3 +1109,20 @@ console.log(addFunction(5 * 2));
 <b>Answer :-</b>
 
 `Calculated! 20` `From cache! 20` `From cache! 20`
+
+### 78. What is the output?
+
+```javascript
+const myLifeSummedUp = ['☕', '💻', '🍷', '🍫'];
+
+for (let item in myLifeSummedUp) {
+  console.log(item);
+}
+
+for (let item of myLifeSummedUp) {
+  console.log(item);
+}
+```
+<b>Answer :-</b>
+
+`0` `1` `2` `3` and `"☕"` `"💻"` `"🍷"` `"🍫"`
