@@ -1126,3 +1126,13 @@ for (let item of myLifeSummedUp) {
 <b>Answer :-</b>
 
 `0` `1` `2` `3` and `"☕"` `"💻"` `"🍷"` `"🍫"`
+
+### 80. What is the output?
+
+```javascript
+const list = [1 + 2, 1 * 2, 1 / 2];
+console.log(list);
+```
+<b>Answer :-</b>
+
+`[3, 2, 0.5]`
