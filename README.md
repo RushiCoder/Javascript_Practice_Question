@@ -1,4 +1,4 @@
-  # Javascript Questions
+ # Javascript Questions
 
 ### 1. What's the output?
 
