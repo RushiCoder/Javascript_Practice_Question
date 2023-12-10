@@ -1127,7 +1127,7 @@ for (let item of myLifeSummedUp) {
 
 `0` `1` `2` `3` and `"☕"` `"💻"` `"🍷"` `"🍫"`
 
-### 80. What is the output?
+### 79. What is the output?
 
 ```javascript
 const list = [1 + 2, 1 * 2, 1 / 2];
