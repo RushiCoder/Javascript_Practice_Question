@@ -1136,3 +1136,16 @@ console.log(list);
 <b>Answer :-</b>
 
 `[3, 2, 0.5]`
+
+### 80. What is the output?
+
+```javascript
+function sayHi(name) {
+  return `Hi there, ${name}`;
+}
+
+console.log(sayHi());
+```
+<b>Answer :-</b>
+
+`Hi there, undefined`
