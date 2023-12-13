@@ -1149,3 +1149,26 @@ console.log(sayHi());
 <b>Answer :-</b>
 
 `Hi there, undefined`
+
+### 81. What is the output?
+
+```javascript
+var status = '😎';
+
+setTimeout(() => {
+  const status = '😍';
+
+  const data = {
+    status: '🥑',
+    getStatus() {
+      return this.status;
+    },
+  };
+
+  console.log(data.getStatus());
+  console.log(data.getStatus.call(this));
+}, 0);
+```
+<b>Answer :-</b>
+
+`"🥑"` and `"😎"`
