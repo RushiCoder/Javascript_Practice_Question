@@ -1172,3 +1172,20 @@ setTimeout(() => {
 <b>Answer :-</b>
 
 `"🥑"` and `"😎"`
+
+### 82. What is the output?
+
+```javascript
+const person = {
+  name: 'Lydia',
+  age: 21,
+};
+
+let city = person.city;
+city = 'Amsterdam';
+
+console.log(person);
+```
+<b>Answer :-</b>
+
+- A: `{ name: "Lydia", age: 21 }`
