@@ -1189,3 +1189,22 @@ console.log(person);
 <b>Answer :-</b>
 
 - A: `{ name: "Lydia", age: 21 }`
+
+### 83. What is the output?
+
+```javascript
+function checkAge(age) {
+  if (age < 18) {
+    const message = "Sorry, you're too young.";
+  } else {
+    const message = "Yay! You're old enough!";
+  }
+
+  return message;
+}
+
+console.log(checkAge(21));
+```
+<b>Answer :-</b>
+
+`ReferenceError`
