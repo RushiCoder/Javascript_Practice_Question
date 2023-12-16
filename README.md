@@ -1208,3 +1208,14 @@ console.log(checkAge(21));
 <b>Answer :-</b>
 
 `ReferenceError`
+
+### 85. What kind of information would get logged?
+
+```javascript
+fetch('https://www.website.com/api/user/1')
+  .then(res => res.json())
+  .then(res => console.log(res));
+```
+<b>Answer :-</b>
+
+The result of the callback in the previous `.then()`.
