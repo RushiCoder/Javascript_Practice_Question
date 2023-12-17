@@ -1209,7 +1209,7 @@ console.log(checkAge(21));
 
 `ReferenceError`
 
-### 85. What kind of information would get logged?
+### 84. What kind of information would get logged?
 
 ```javascript
 fetch('https://www.website.com/api/user/1')
@@ -1219,3 +1219,14 @@ fetch('https://www.website.com/api/user/1')
 <b>Answer :-</b>
 
 The result of the callback in the previous `.then()`.
+
+### 85. Which option is a way to set `hasName` equal to `true`, provided you cannot pass `true` as an argument?
+
+```javascript
+function getName(name) {
+  const hasName = //
+}
+```
+<b>Answer :-</b>
+
+`!!name`
