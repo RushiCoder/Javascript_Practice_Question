@@ -1230,3 +1230,12 @@ function getName(name) {
 <b>Answer :-</b>
 
 `!!name`
+
+### 86. What's the output?
+
+```javascript
+console.log('I want pizza'[0]);
+```
+<b>Answer :-</b>
+
+`"I"`
