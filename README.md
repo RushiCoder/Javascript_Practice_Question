@@ -1239,3 +1239,16 @@ console.log('I want pizza'[0]);
 <b>Answer :-</b>
 
 `"I"`
+
+### 87. What's the output?
+
+```javascript
+function sum(num1, num2 = num1) {
+  console.log(num1 + num2);
+}
+
+sum(10);
+```
+<b>Answer :-</b>
+
+`20`
