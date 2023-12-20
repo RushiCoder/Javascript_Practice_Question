@@ -1252,3 +1252,19 @@ sum(10);
 <b>Answer :-</b>
 
 `20`
+
+### 88. What's the output?
+
+```javascript
+// module.js
+export default () => 'Hello world';
+export const name = 'Lydia';
+
+// index.js
+import * as data from './module';
+
+console.log(data);
+```
+<b>Answer :-</b>
+
+`{ default: function default(), name: "Lydia" }`
