@@ -1268,3 +1268,19 @@ console.log(data);
 <b>Answer :-</b>
 
 `{ default: function default(), name: "Lydia" }`
+
+### 89. What's the output?
+
+```javascript
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+const member = new Person('John');
+console.log(typeof member);
+```
+<b>Answer :-</b>
+
+`"object"`
