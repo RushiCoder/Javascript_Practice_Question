@@ -1284,3 +1284,14 @@ console.log(typeof member);
 <b>Answer :-</b>
 
 `"object"`
+
+### 90. What's the output?
+
+```javascript
+let newList = [1, 2, 3].push(4);
+
+console.log(newList.push(5));
+```
+<b>Answer :-</b>
+
+`Error`
