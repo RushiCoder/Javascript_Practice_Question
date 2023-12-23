@@ -1295,3 +1295,20 @@ console.log(newList.push(5));
 <b>Answer :-</b>
 
 `Error`
+
+### 91. What's the output?
+
+```javascript
+function giveLydiaPizza() {
+  return 'Here is pizza!';
+}
+
+const giveLydiaChocolate = () =>
+  "Here's chocolate... now go hit the gym already.";
+
+console.log(giveLydiaPizza.prototype);
+console.log(giveLydiaChocolate.prototype);
+```
+<b>Answer :-</b>
+
+`{ constructor: ...}` `undefined`
