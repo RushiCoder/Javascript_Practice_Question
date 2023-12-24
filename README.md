@@ -1312,3 +1312,19 @@ console.log(giveLydiaChocolate.prototype);
 <b>Answer :-</b>
 
 `{ constructor: ...}` `undefined`
+
+### 92. What's the output?
+
+```javascript
+const person = {
+  name: 'Lydia',
+  age: 21,
+};
+
+for (const [x, y] of Object.entries(person)) {
+  console.log(x, y);
+}
+```
+<b>Answer :-</b>
+
+`name` `Lydia` and `age` `21`
