@@ -1328,3 +1328,16 @@ for (const [x, y] of Object.entries(person)) {
 <b>Answer :-</b>
 
 `name` `Lydia` and `age` `21`
+
+### 93. What's the output?
+
+```javascript
+function getItems(fruitList, ...args, favoriteFruit) {
+  return [...fruitList, ...args, favoriteFruit]
+}
+
+getItems(["banana", "apple"], "pear", "orange")
+```
+<b>Answer :-</b>
+
+`SyntaxError`
