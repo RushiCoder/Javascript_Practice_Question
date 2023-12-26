@@ -1341,3 +1341,25 @@ getItems(["banana", "apple"], "pear", "orange")
 <b>Answer :-</b>
 
 `SyntaxError`
+
+### 96. What's the output?
+
+```javascript
+class Person {
+  constructor() {
+    this.name = 'Lydia';
+  }
+}
+
+Person = class AnotherPerson {
+  constructor() {
+    this.name = 'Sarah';
+  }
+};
+
+const member = new Person();
+console.log(member.name);
+```
+<b>Answer :-</b>
+
+`"Sarah"`
