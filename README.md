@@ -1342,7 +1342,7 @@ getItems(["banana", "apple"], "pear", "orange")
 
 `SyntaxError`
 
-### 96. What's the output?
+### 94. What's the output?
 
 ```javascript
 class Person {
@@ -1363,3 +1363,17 @@ console.log(member.name);
 <b>Answer :-</b>
 
 `"Sarah"`
+
+### 95. What's the output?
+
+```javascript
+const info = {
+  [Symbol('a')]: 'b',
+};
+
+console.log(info);
+console.log(Object.keys(info));
+```
+<b>Answer :-</b>
+
+`{Symbol('a'): 'b'}` and `[]`
