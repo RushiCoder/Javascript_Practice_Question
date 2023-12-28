@@ -1377,3 +1377,19 @@ console.log(Object.keys(info));
 <b>Answer :-</b>
 
 `{Symbol('a'): 'b'}` and `[]`
+
+### 96. What's the output?
+
+```javascript
+const getList = ([x, ...y]) => [x, y]
+const getUser = user => { name: user.name, age: user.age }
+
+const list = [1, 2, 3, 4]
+const user = { name: "Lydia", age: 21 }
+
+console.log(getList(list))
+console.log(getUser(user))
+```
+<b>Answer :-</b>
+
+`[1, [2, 3, 4]]` and `SyntaxError`
