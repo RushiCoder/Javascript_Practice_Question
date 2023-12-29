@@ -1393,3 +1393,14 @@ console.log(getUser(user))
 <b>Answer :-</b>
 
 `[1, [2, 3, 4]]` and `SyntaxError`
+
+### 97. What's the output?
+
+```javascript
+const name = 'Lydia';
+
+console.log(name());
+```
+<b>Answer :-</b>
+
+`TypeError`
