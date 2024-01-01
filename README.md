@@ -1415,3 +1415,16 @@ You should${'' && `n't`} see a therapist after so much JavaScript lol`;
 <b>Answer :-</b>
 
 `Impossible! You should see a therapist after so much JavaScript lol`
+
+### 101. What's the value of output?
+
+```javascript
+const one = false || {} || null;
+const two = null || false || '';
+const three = [] || 0 || true;
+
+console.log(one, two, three);
+```
+<b>Answer :-</b>
+
+ `{}` `""` `[]`
