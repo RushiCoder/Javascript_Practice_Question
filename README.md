@@ -1404,7 +1404,7 @@ console.log(name());
 <b>Answer :-</b>
 
 `TypeError`
-### 100. What's the value of output?
+### 98. What's the value of output?
 
 ```javascript
 // 🎉✨ This is my 100th question! ✨🎉
@@ -1416,7 +1416,7 @@ You should${'' && `n't`} see a therapist after so much JavaScript lol`;
 
 `Impossible! You should see a therapist after so much JavaScript lol`
 
-### 101. What's the value of output?
+### 99. What's the value of output?
 
 ```javascript
 const one = false || {} || null;
@@ -1428,3 +1428,26 @@ console.log(one, two, three);
 <b>Answer :-</b>
 
  `{}` `""` `[]`
+
+### 102. What's the value of output?
+
+```javascript
+const myPromise = () => Promise.resolve('I have resolved!');
+
+function firstFunction() {
+  myPromise().then(res => console.log(res));
+  console.log('second');
+}
+
+async function secondFunction() {
+  console.log(await myPromise());
+  console.log('second');
+}
+
+firstFunction();
+secondFunction();
+```
+<b>Answer :-</b>
+
+
+`second`, `I have resolved!` and `I have resolved!`, `second`
