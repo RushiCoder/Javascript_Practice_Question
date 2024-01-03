@@ -1,4 +1,4 @@
- # JavaScript Questions
+ # JavaScript-Questions
 
 ### 1. What's the output?
 
