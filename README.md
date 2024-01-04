@@ -1468,3 +1468,20 @@ for (let item of set) {
 <b>Answer :-</b>
 
 `3`, `Lydia2`, `[object Object]2`
+
+### 103. What's the value of output?
+
+```javascript
+const set = new Set();
+
+set.add(1);
+set.add('Lydia');
+set.add({ name: 'Lydia' });
+
+for (let item of set) {
+  console.log(item + 2);
+}
+```
+<b>Answer :-</b>
+
+`3`, `Lydia2`, `[object Object]2`
