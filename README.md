@@ -1,4 +1,4 @@
- # JavaScript-Questions
+ # JavaScript Questions
 
 ### 1. What's the output?
 
@@ -1429,7 +1429,7 @@ console.log(one, two, three);
 
  `{}` `""` `[]`
 
-### 102. What's the value of output?
+### 100. What's the value of output?
 
 ```javascript
 const myPromise = () => Promise.resolve('I have resolved!');
@@ -1451,3 +1451,20 @@ secondFunction();
 
 
 `second`, `I have resolved!` and `I have resolved!`, `second`
+
+### 101. What's the value of output?
+
+```javascript
+const set = new Set();
+
+set.add(1);
+set.add('Lydia');
+set.add({ name: 'Lydia' });
+
+for (let item of set) {
+  console.log(item + 2);
+}
+```
+<b>Answer :-</b>
+
+`3`, `Lydia2`, `[object Object]2`
