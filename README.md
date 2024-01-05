@@ -1469,7 +1469,7 @@ for (let item of set) {
 
 `3`, `Lydia2`, `[object Object]2`
 
-### 103. What's the value of output?
+### 102. What's the value of output?
 
 ```javascript
 const set = new Set();
@@ -1486,7 +1486,7 @@ for (let item of set) {
 
 `3`, `Lydia2`, `[object Object]2`
 
-### 104. What's its value?
+### 103. What's its value?
 
 ```javascript
 Promise.resolve(5);
