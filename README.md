@@ -1485,3 +1485,12 @@ for (let item of set) {
 <b>Answer :-</b>
 
 `3`, `Lydia2`, `[object Object]2`
+
+### 104. What's its value?
+
+```javascript
+Promise.resolve(5);
+```
+<b>Answer :-</b>
+
+`Promise {<fulfilled>: 5}`
