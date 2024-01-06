@@ -1494,3 +1494,22 @@ Promise.resolve(5);
 <b>Answer :-</b>
 
 `Promise {<fulfilled>: 5}`
+
+### 104. What's its value?
+
+```javascript
+function compareMembers(person1, person2 = person) {
+  if (person1 !== person2) {
+    console.log('Not the same!');
+  } else {
+    console.log('They are the same!');
+  }
+}
+
+const person = { name: 'Lydia' };
+
+compareMembers(person);
+```
+<b>Answer :-</b>
+
+`They are the same!`
