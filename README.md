@@ -1513,3 +1513,12 @@ compareMembers(person);
 <b>Answer :-</b>
 
 `They are the same!`
+
+### 105. What's its value?
+
+```javascript
+console.log('❤️' === '❤️');
+```
+<b>Answer :-</b>
+
+`true`
